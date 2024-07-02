@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-pil-20240702-001"
+version = "0.1.0"
+description = ""
+authors = ["bamjun <khy5116@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.4.0"
+pims = "^0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
